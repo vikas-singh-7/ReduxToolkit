@@ -1,0 +1,31 @@
+install react redux    to connect the redux with react we use react redux 
+insatll redux toolkit    redux toolkit is an easy approach for state managemnets to tell redux toolkit "okay you have to connect with react we use react redux " 
+
+"since a redux is a statemanagement libraray , it has a single source of truth ie.Store which holds all the states and things which component needs and which cpmponents will change "
+
+now after instalation make a store "configureStore form redux toolkit"
+
+
+after the creatio of store make the app or components which needs store wrapp them in provider form react redux and pass store which we have created  as prop4
+
+now make a feature folder or make a slice "  a slice is part of code which manage a particular part of your application like if a detail section is avaulable on ur applicatio , we can make a dedicated slice for that , which manages the state and data of that feature or part of our application "
+
+lets create a slice for details :P
+
+export its reducer and combine reducer 
+
+now import its combine reducer to store
+
+
+now make a componnet and try to access the state from the store
+
+wooo we achived the state of the store by useSelector hook when we use it , it automatically target store so we say ok from state of state get the state of the particular slice 
+
+
+now lets try to dispath some changes :P it will be fun :O)
+
+
+to dispatch some changes or to change state , we use usedispatch hook from redux
+
+
+we pass our reducers that are the ageng for making change in slice in usedispatch and we dispatch changes 
